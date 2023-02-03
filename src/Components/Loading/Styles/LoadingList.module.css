@@ -1,0 +1,21 @@
+.Loading_Container {
+}
+
+.Loading_List_Container {
+}
+
+.Loading_Img_Contanier {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.Loading_Content_Img {
+  min-height: 240px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Loading_Content {
+  margin-left: 10px;
+  margin-right: 10px;
+}

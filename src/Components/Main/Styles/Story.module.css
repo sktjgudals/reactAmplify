@@ -1,0 +1,65 @@
+@media (max-width: 531px) {
+  .Story_BigContainer {
+    padding: 0px 20px 0px 20px;
+  }
+  .Story_Container {
+    margin-left: 10px;
+    @apply border-4 border-green-700 py-0 flex justify-between;
+  }
+  .Story_Main_Container {
+    /* @apply my-6 mx-6 py-0; */
+    padding: 20px 10px;
+  }
+  .Story_Title {
+    @apply bg-green-700 text-xs text-white mb-4 w-14 text-center rounded-xl;
+  }
+  .Story_Content_Title {
+    @apply text-green-700 text-xl font-semibold mb-2;
+  }
+  .Story_Content_Content {
+    @apply text-green-700 text-sm mt-6;
+  }
+  .Story_Button {
+    @apply bg-green-700;
+    width: 60px;
+    height: 151px;
+    font-size: 32px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+  }
+}
+.Story_BigContainer {
+  margin: 40px auto 0 auto;
+  width: 1220px;
+  display: flex;
+}
+@media (min-width: 532px) {
+  .Story_Container {
+    @apply border-4 border-green-700 py-6 flex justify-between  w-full;
+  }
+  .Story_Main_Container {
+    @apply ml-8;
+  }
+  .Story_Title {
+    @apply bg-green-700 text-sm text-white mb-4 w-14 text-center rounded-xl;
+  }
+  .Story_Content_Title {
+    @apply text-green-700 text-2xl font-semibold mb-2;
+  }
+  .Story_Content_Content {
+    @apply text-green-700;
+  }
+  .Story_Button {
+    @apply bg-green-700;
+    width: 75px;
+    height: 160px;
+    font-size: 32px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
